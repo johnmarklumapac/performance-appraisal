@@ -1,0 +1,46 @@
+@import 'CSS3Tables/css/style.css';
+.oc-box-border{
+	border:1px solid #DDDDDD;
+	box-shadow:1px 1px 1px #DDDDDD;
+	padding:5px;
+}
+
+.oc-ui-thead th{
+	text-align:center;
+}
+
+.oc-box-form select{
+	font-family: Verdana, 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
+	font-size: 12px;
+	color: #424242;
+	padding: 4px;
+	border: 1px solid #CCC;
+	outline: none;
+	text-decoration:none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;	
+	
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .15) inset;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .15) inset;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .15) inset;
+	
+	-moz-transition: border .2s linear, box-shadow .2s linear;
+	-webkit-transition: border .2s linear, -webkit-box-shadow .2s linear;
+}
+
+/*ul.menu{
+	border:1px solid #CCC;
+}
+
+ul.menu li{
+	border-bottom:1px dashed #DDD;
+}
+*/
+.cs3tables2 tbody tr td{
+	border-bottom:1px dashed #CCCCCC;
+}
+
+.cs3tables2 tbody tr:hover td{
+	color:blue;
+}
